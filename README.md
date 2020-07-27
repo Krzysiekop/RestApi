@@ -26,8 +26,7 @@ Example
  ```
 *  api/delete-order/{id}   
 Example  
-DELETE   
-``` http://127.0.0.1:8000/api/delete-order/1 ```
+``` DELETE http://127.0.0.1:8000/api/delete-order/1 ```
 
 *  api/edit-order/{id}  
 Example  
