@@ -1,8 +1,9 @@
 
 # Setup  
-Copy the files to the server, e.g. local  
-Add a connection to your own database in the file .env:  ```DATABASE_URL=mysql://db_user:db_password@127.0.0.1:3306/db_name?serverVersion=5.7```  
-Run Doctrine migrations: ```php bin/console d:m:m ``` 
+*  Copy the files to the server, e.g. local  
+*  Add a connection to your own database in the file .env:  ```DATABASE_URL=mysql://db_user:db_password@127.0.0.1:3306/db_name?serverVersion=5.7```  
+*  Run ``` composer install ```
+*  Run Doctrine migrations: ```php bin/console d:m:m ``` 
 
 # Endpoints:  
 
