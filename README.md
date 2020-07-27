@@ -31,7 +31,7 @@ DELETE
 
 *  api/edit-order/{id}  
 Example  
-```POST http://127.0.0.1:8000/api/edit-order/2 ```
+```PUT http://127.0.0.1:8000/api/edit-order/2 ```
  Json body  
  ```
 {
